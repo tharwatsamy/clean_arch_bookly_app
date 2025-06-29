@@ -6,8 +6,7 @@ import '../../../domain/entities/book_entity.dart';
 import 'custom_book_item.dart';
 
 class FeaturedBooksListView extends StatefulWidget {
-  const FeaturedBooksListView({Key? key, required this.books})
-      : super(key: key);
+  const FeaturedBooksListView({super.key, required this.books});
 
   final List<BookEntity> books;
 
